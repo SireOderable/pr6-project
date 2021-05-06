@@ -1,0 +1,22 @@
+Pour compiler le code il suffit de faire : make all
+Pour l'exécuter : ./client
+
+Un fichier de configuration est disponible et va permettre de paramétrer le serveur : params.config
+
+Je vous le donne comme suit, pour le modifier :
+
+server config :
+
+ipv4 : 1 // vous pouvez mettre 0 pour passer en ipv6
+server_address : 81.194.27.155 // vous pouvez mettre ici l'adresse en ipv4 ou ipv6 en fonction de ce que vous avez choisi
+port : 1212 // Vous pouvez changer le port ici
+
+
+
+client config :
+
+data_expiration : 30 // le temps de vie des données publiées
+
+La seule chose à respecter sur ce fichier est le fait que les infos sont écrites de cette façon :
+nom_parametre : valeur
+et non nom_parametre:valeur par exemple.
